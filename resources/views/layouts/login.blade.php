@@ -50,7 +50,7 @@
                         @yield('content')
                     </div>
                 </div>
-            </div>
+            </div>ｔ
         </main>
         
         @component('components.footer')

@@ -1,3 +1,6 @@
+<!--ログイン後、ログイン成功した際の画面-->
+
+
 @extends('layouts.app')
 
 @section('content')
@@ -5,7 +8,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Dashboard</div>
+                <div class="card-header mt-5">Dashboard</div>
 
                 <div class="card-body">
                     @if (session('status'))
