@@ -20,6 +20,7 @@
         
     </head>
     <body>
+        <!--app.jsでvueとつなげるためにel: '#app'と紐づいている-->
         <div id="app">
             @component('components.header')
             @endcomponent
