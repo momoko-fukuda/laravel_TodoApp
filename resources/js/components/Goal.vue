@@ -84,14 +84,12 @@
                             </div>
                         </div>
                     </div>
+                    <!--ここの場所にTodos.vueをもってくる。また、propsでgoalIdを取ってこれるように設定-->
+                    <goals-todos :goalId="goal.id"></goals-todos>
                 </div>
             </div>
         </div>
-        
-        
-        
-        
-        
+
     </div>
     
 
@@ -102,6 +100,7 @@
 <script>
     import axios from "axios"
     import $ from "jquery"
+    import Todos from "./Todos.vue"
     
     export default {
         // データの設定
@@ -111,6 +110,10 @@
                 title:"",
                 goals:[]
             }
+        },
+        // Todo.vueを使用する設定
+        components: {
+            'goals-todos' : Todos
         },
         
         // DOM生成直後に実行すること
