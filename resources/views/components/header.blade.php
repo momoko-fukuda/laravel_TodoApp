@@ -3,7 +3,7 @@
     <button
         class="navbar-toggler"
         type="button"
-        data-toggler="collapse"
+        data-toggle="collapse"
         data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
