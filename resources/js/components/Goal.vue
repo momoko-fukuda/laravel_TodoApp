@@ -25,6 +25,7 @@
                     <!--modalのfooter-->
                 　　<div class="modal-footer">
                 　　    <button type="button" class="btn btn-secondary" data-dismiss="modal" v-on:click="addNewGoal">Add</button>
+                　　  <button type-"button" class="btn btn-primary">Save changes</button>
                 　　</div>
                 </div>
             </div>    
@@ -98,6 +99,7 @@
                     <!--modalのfooter-->
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal" v-on:click="editGoalTitle">Edit</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
                     </div>
                 </div>
             </div>
@@ -115,6 +117,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-danger" data-dismiss="modal" v-on:click="deleteGoal">Delete</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
                     </div>
                 </div>
             </div>
