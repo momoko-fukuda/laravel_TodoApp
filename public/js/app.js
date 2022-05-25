@@ -38328,7 +38328,11 @@ var render = function () {
                   [_vm._v("Add")]
                 ),
                 _vm._v(" "),
-                _vm._v('"button" class="btn btn-primary">Save changes'),
+                _c(
+                  "button",
+                  { staticClass: "btn btn-primary", attrs: { type: "button" } },
+                  [_vm._v("Save changes")]
+                ),
               ]),
             ]),
           ]
